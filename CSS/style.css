@@ -24,7 +24,7 @@ filter: drop-shadow(-14px 5px 0px #000);
  }
 
  #animated-arrow{
-    height: 10%;
+    height: 20%;
     font-size: 40px;
     
  }
@@ -82,7 +82,7 @@ filter: drop-shadow(-14px 5px 0px #000);
    position: relative;
    text-decoration: none;
    color: rgb(204, 198, 198);
-   font-size: 30px;
+   font-size: 24px;
    padding-top: 30px;
    z-index: 5;
  }
@@ -112,13 +112,13 @@ color:#dd3c0be0;
         transform: translateY(0%);
     }
     30%{
-        transform: translateY(40%);
+        transform: translateY(20%);
     }
     50%{
         transform: translateY(0%);
     }
     75%{
-        transform: translateY(80%);
+        transform: translateY(40%);
 
     }
     100%{
@@ -275,18 +275,18 @@ color:#dd3c0be0;
 #contact-header span{
    color: #dd3c0be0;
 }
-#contact-section a{
+#contact-container a{
    text-decoration: none;
    color:rgb(204, 198, 198) ;
    font-size: 24px;
    padding-top: 20px;
 }
-#contact-section a:hover,
- #contact-section a:focus{
+#contact-container a:hover,
+ #contact-container a:focus{
    transform: scale(1.2);
    color:rgb(83, 174, 83) ;
 }
-#contact-section i{
+#contact-container i{
    font-size: 32px;
 }
 #contact-section img {
@@ -298,6 +298,20 @@ color:#dd3c0be0;
 
 #contact-section{
    height: 90vh;
+}
+.arrow-up{
+   display: flex;
+   justify-content:flex-end;
+   padding-right: 40px;
+  
+}
+.arrow-up a{
+   text-decoration: none;
+    
+}
+.arrow-up a i{
+   font-size: 40px;
+   color:rgb(204, 198, 198);
 }
 
 #footer{
