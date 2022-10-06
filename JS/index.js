@@ -38,7 +38,8 @@ aboutBtn.addEventListener("click", function(){
 })
 skillsBtn.addEventListener("click", function(){
     aboutMePage.style.display = "none";
-    skillsPage.style.display = "block";
+    skillsPage.style.display = "flex";
+    skillsPage.style.flexFlow = "column wrap";
     aboutBtn.style.fontFamily = "'Ubuntu', sans-serif";
     skillsBtn.style.fontFamily = "'Ultra', serif";
     skillsBtn.style.color = "#dd3c0be0";

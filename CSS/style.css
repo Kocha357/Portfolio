@@ -5,7 +5,7 @@
  }
  #header-section img{
    width: 100px;
-filter: drop-shadow(-14px 5px 0px #000);
+   filter: drop-shadow(-14px 5px 0px #000);
  }
  
 
@@ -70,9 +70,9 @@ filter: drop-shadow(-14px 5px 0px #000);
 
  
  .nav-show{
- display: flex;
- flex-direction: column;
- animation: navigation 1s ease;
+   display: flex;
+   flex-direction: column;
+   animation: navigation 1s ease;
 
  }
 
@@ -87,7 +87,7 @@ filter: drop-shadow(-14px 5px 0px #000);
    z-index: 5;
  }
  .nav-elements a:active{
-color:#dd3c0be0;
+   color:#dd3c0be0;
  }
  /*******************************************NAVIGATION ANIMATION*****************************************/
  @keyframes navigation{
@@ -160,8 +160,8 @@ color:#dd3c0be0;
 #skills-wrapper{
    display: none ;
    font-family: 'Ubuntu',sans-serif;
-   width: 300px;
-   margin: 0 auto;
+   
+  
 
 }
 #skills-wrapper img{
@@ -178,12 +178,20 @@ color:#dd3c0be0;
 }
 #about-me{
    font-family: 'Ultra',serif;
-  color:rgb(83, 174, 83);
-  border-bottom: 2px solid rgb(83, 174, 83) ;
+   color:rgb(83, 174, 83);
+   border-bottom: 2px solid rgb(83, 174, 83) ;
 }
 #skills{
    color:rgb(204, 198, 198) ;
    
+}
+.skills-heading{
+   font-family: 'Ultra', serif;
+   color:#dd3c0be0 ;
+}
+.about-heading{
+   font-family: 'Ultra', serif;
+      color: rgb(83, 174, 83);
 }
 /*****************************************PROGRESS BAR******************************/
 .img-box{
@@ -192,8 +200,8 @@ color:#dd3c0be0;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
    background-color: rgba(255, 255, 255, 0.118);
    margin-top:40px;
    border-radius: 50%;
@@ -206,8 +214,8 @@ color:#dd3c0be0;
 }
 .img-box::before{
    content:"";
-   width: 210px;
-   height: 210px;
+   width: 170px;
+   height: 170px;
    border-radius: 100%;
    background-color: #252525;
    position: absolute;
@@ -223,7 +231,7 @@ color:#dd3c0be0;
 
 /**********************************************PROJECTS-SECTION*******************************************/
 #projects-section a{
-   font-size: 24px;
+   font-size: 20px;
 }
 
 #projects-section{
@@ -248,9 +256,12 @@ color:#dd3c0be0;
    margin-top: 40px;
    padding: 20px;
 }
+.text{
+   width: 280px;
+}
 .wallpaper-box{
-   width: 300px;
-   height:300px;
+   width: 280px;
+   height:250px;
    background: url("../IMG/portfolio-box-background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -297,7 +308,7 @@ color:#dd3c0be0;
 }
 
 #contact-section{
-   height: 90vh;
+   height: 100vh;
 }
 .arrow-up{
    display: flex;
@@ -315,10 +326,11 @@ color:#dd3c0be0;
 }
 
 #footer{
-   height: 10vh;
+   height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-bottom: 0;
    background-color: black;
    color: rgb(206, 203, 203);
 }
