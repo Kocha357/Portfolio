@@ -25,18 +25,28 @@
   </head>
   <body>
     <!----- HEADER-SETION-->
+    <div id="lg-navigation" class="container-fluid d-none d-lg-block">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-evenly">
+          <a href="#header-section">HOME</a>
+          <a href="#about-section">ABOUT</a>
+          <a href="#projects-section">PROJECTS</a>
+          <a href="#contact-section">CONTACT</a>
+        </div>
+      </div>
+    </div>
     <div id="header-section" class="container-fluid vh-100">
       <div class="row vh-100 justify-content-center align-items-center">
         <div
-          class="col-12 col-md-3 d-flex align-items-center justify-content-center"
+          class="col-12 col-md-6 d-flex align-items-center justify-content-center"
         >
           <img src="IMG/Dusan-logo.png" alt="Dusan Kovacevic logo" />
         </div>
-        <div class="col-12 col-md-9 px-4">
+        <div class="col-12 col-md-6 px-4">
           <div id="text-wrapper" class="col-12 px-3">
             <h1>
               HELLO,<br />
-              I'M <span>DUSAN KOVACEVIC</span> .
+              I'M <span>DUSAN KOVACEVIC</span>.
             </h1>
 
             <p>-Frontend JavaScript Developer.</p>
@@ -62,7 +72,7 @@
         <div id="nav-content" class="nav-elements px-4">
           <a class="options" href="#header-section">HOME</a>
           <a class="options" href="#about-section">ABOUT</a>
-          <a class="options" href="#projects-section">MY PROJECTS</a>
+          <a class="options" href="#projects-section">PROJECTS</a>
           <a class="options" href="#contact-section">CONTACT ME</a>
         </div>
       </div>
@@ -71,7 +81,7 @@
     <!--ABOUT-SECTION-->
     <div id="about-section" class="container-fluid">
       <div class="row pt-3 justify-content-center">
-        <div class="col-12 d-none d-lg-flex justify-content-around">
+        <div class="col-12 d-none d-lg-flex justify-content-around pt-5">
           <h2 class="about-heading">ABOUT ME</h2>
           <h2 class="skills-heading">MY SKILLS</h2>
         </div>
@@ -84,7 +94,7 @@
             <div class="col-12 text-center d-none d-md-block d-lg-none">
               <h2 class="about-heading">ABOUT ME</h2>
             </div>
-            <div class="col-12 col-lg-6 text-center">
+            <div class="col-12 col-xxl-6 text-center">
               <img src="IMG/profile-pic.png" alt="Dusan Kovacevic photo" />
 
               <p class="text-muted px-5">
@@ -124,31 +134,31 @@
           id="skills-wrapper"
           class="col-12 d-md-flex flex-md-wrap justify-content-evenly col-lg-6 p-4"
         >
-          <div class="img-box progress col-12 col-md-6 py-3">
+          <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/html-5.png" alt="html image" />
-            <span class="progress-value-html">0%</span>
+            <p class="pt-3">Advanced knowledge of HTML</p>
           </div>
-          <div class="img-box progress1 col-12 col-md-6 py-3">
+          <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/css-3.png" alt="css image" />
-            <span class="progress-value-css">0%</span>
+            <p class="pt-3">Advanced knowledge of CSS</p>
           </div>
-          <div class="img-box progress2 col-12 col-md-6 py-3">
+          <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/java-script.png" alt="javascript image" />
-            <span class="progress-value-js">0%</span>
+            <p class="pt-3">Advanced knowledge of JavaScript</p>
           </div>
-          <div class="img-box progress3 col-12 col-md-6 py-3">
+          <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/typescript.png" alt="typescript image" />
-            <span class="progress-value-ts">0%</span>
+            <p class="pt-3">Basic knowledge of TypeScript</p>
           </div>
-          <div class="img-box progress4 col-12 col-md-6 py-3">
+          <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/bootstrap.png" alt="bootstrap image" />
-            <span class="progress-value-bs">0%</span>
+            <p class="pt-3">Advanced knowledge of Bootstrap</p>
           </div>
-          <div class="img-box progress5 col-12 col-md-6 py-3">
+          <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/physics.png" alt="reactJs image" />
-            <span class="progress-value-rjs">0%</span>
+            <p class="pt-3">Basic knowledge of ReactJs</p>
           </div>
-          <div class="col-12 py-3 text-center text-lg-end">
+          <div class="col-12 py-3 text-center text-start">
             <a href="#contact-section">Contact me</a>
           </div>
         </div>
@@ -176,41 +186,94 @@
           </div>
         </div>
         <div class="col-12 project-box">
-          <div class="wallpaper-box"></div>
+          <div class="wallpaper-box1"></div>
           <div class="text">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quam
-              libero quibusdam?
+              Simple rotating circle animation. Created using CSS. Practice for
+              use pseudoelements and filters.
             </p>
             <div class="col-12 d-flex justify-content-between">
-              <a class="btn btn-outline-success" href="#">GitHub</a>
-              <a class="btn btn-outline-success" href="#">GHPages</a>
+              <a
+                class="btn btn-outline-success"
+                href="https://github.com/Kocha357/Circle-CSS-animation"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-success"
+                href="https://kocha357.github.io/Circle-CSS-animation/"
+                target="_blank"
+                >GHPages</a
+              >
             </div>
           </div>
         </div>
         <div class="col-12 project-box">
-          <div class="wallpaper-box"></div>
+          <div class="wallpaper-box2"></div>
           <div class="text">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quam
-              libero quibusdam?
+              Simple responsive gallery.Created using CSS. Practice for use
+              media queries.
             </p>
             <div class="col-12 d-flex justify-content-between">
-              <a class="btn btn-outline-success" href="#">GitHub</a>
-              <a class="btn btn-outline-success" href="#">GHPages</a>
+              <a
+                class="btn btn-outline-success"
+                href="https://github.com/Kocha357/galrija"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-success"
+                href="https://kocha357.github.io/galrija/"
+                target="_blank"
+                >GHPages</a
+              >
             </div>
           </div>
         </div>
         <div class="col-12 project-box">
-          <div class="wallpaper-box"></div>
+          <div class="wallpaper-box3"></div>
           <div class="text">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quam
-              libero quibusdam?
+              Website created using Bootstrap, for practice purpose.Practice for
+              use Bootstrap and media queries.
             </p>
             <div class="col-12 d-flex justify-content-between">
-              <a class="btn btn-outline-success" href="#">GitHub</a>
-              <a class="btn btn-outline-success" href="#">GHPages</a>
+              <a
+                class="btn btn-outline-success"
+                href="https://github.com/Kocha357/bootstrap"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-success"
+                href="https://kocha357.github.io/bootstrap/"
+                target="_blank"
+                >GHPages</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 project-box">
+          <div class="wallpaper-box4"></div>
+          <div class="text">
+            <p>
+              Form created for practice, using HTML,CSS,JavaScript. Valid
+              username:new-user, pass:123456789.
+            </p>
+            <div class="col-12 d-flex justify-content-between">
+              <a
+                class="btn btn-outline-success"
+                href="https://github.com/Kocha357/JS-forma"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-success"
+                href="https://kocha357.github.io/JS-forma/"
+                target="_blank"
+                >GHPages</a
+              >
             </div>
           </div>
         </div>
@@ -222,16 +285,16 @@
           <h2>CONTACT <span>ME</span></h2>
         </div>
         <div
-          class="col-12 col-md-4 d-flex align-items-center justify-content-center"
+          class="col-12 col-md-6 d-flex align-items-center justify-content-center"
         >
           <img src="IMG/Dusan-logo.png" alt="Dusan Kovacevic logo" />
         </div>
         <div
           id="contact-container"
-          class="col-12 col-md-8 d-flex flex-column align-items-center text-start py-5"
+          class="col-12 col-md-6 d-flex flex-column align-items-center py-5"
         >
           <a href="mailto:dusan.kovacevic93@outlook.com" target="_blank"
-            ><i class="fa-regular fa-envelope"></i> Email me</a
+            ><i class="fa-regular fa-envelope"></i> E-mail</a
           >
           <a href="https://www.facebook.com/kocha357" target="_blank"
             ><i class="fa-brands fa-square-facebook"></i> Facebook</a
@@ -253,9 +316,9 @@
       </div>
     </div>
     <div id="footer" class="container-fluid">
-      <div class="row align-self-end">
+      <div class="row">
         <div class="col-12 p-2">
-          <p>&copy 2022, dusan.kovacevic93@outlook.com</p>
+          <p>&copy 2022 dusan.kovacevic93@outlook.com</p>
         </div>
       </div>
     </div>
