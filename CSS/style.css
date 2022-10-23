@@ -19,7 +19,7 @@
    font-size: 35px;
  }
  h1 span{
-    font-family: 'Ultra', serif;
+    font-weight: bold;
     color: rgb(83, 174, 83);
  }
 
@@ -196,7 +196,7 @@
    display: none ;
    font-family: 'Ubuntu',sans-serif;
    border-left: 2px solid rgb(83, 174, 83);
-  
+   padding-top: 30px;
 
 }
 #skills-wrapper img{
@@ -213,7 +213,7 @@
    
 }
 #about-me{
-   font-family: 'Ultra',serif;
+   font-weight: bold;
    color:rgb(83, 174, 83);
    border-bottom: 2px solid rgb(83, 174, 83) ;
 }
@@ -222,11 +222,11 @@
    
 }
 .skills-heading{
-   font-family: 'Ultra', serif;
+   font-weight: bold;
    color:#dd3c0be0 ;
 }
 .about-heading{
-   font-family: 'Ultra', serif;
+   font-weight: bold;
       color: rgb(83, 174, 83);
 }
 .img-box{
@@ -238,7 +238,7 @@
    width: 200px;
    height: 200px;
    background-color: rgba(255, 255, 255, 0.118);
-   margin-top: 20px;
+   margin: 20px;
    border-radius: 50%;
    align-self:center;
    z-index: -1; 
@@ -253,9 +253,10 @@
 }
 
 
+
 #projects-section h2{
    color: #dd3c0be0;
-   font-family: 'Ultra',serif;
+   font-weight: bold;
 
 }
 .project-box{
@@ -268,7 +269,7 @@
    border-radius: 15px;
    background-color: rgba(255, 255, 255, 0.118);
    color:rgb(204, 198, 198) ;
-   margin-top: 40px;
+   margin: 20px;
    padding: 20px;
 }
 .text{
@@ -317,6 +318,25 @@
    
 
 }
+.wallpaper-box5 {
+   width: 250px;
+   height: 200px;
+   background: url("../IMG/calculator.PNG");
+   background-repeat: no-repeat;
+   background-size: contain;
+
+
+}
+.wallpaper-box6 {
+   width: 250px;
+   height: 200px;
+   background: url("../IMG/todo.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+
+
+}
+
 
 .btn{
    color:rgb(83, 174, 83) ;
@@ -331,7 +351,7 @@
 
 /*****************************************************CONTACT SECTION************************************************/
 #contact-header h2{
-   font-family: 'Ultra', serif;
+   font-weight: bold;
    color:rgb(83, 174, 83);
 }
 #contact-header span{
@@ -399,6 +419,12 @@
            width: 200px;
            filter: drop-shadow(-20px 5px 0px #000);
         }
+      .img-box{
+         margin: 15px;
+      }
+      #skills-wrapper{
+         padding-top: 0;
+      }
  
 }
 @media only screen and (max-width:1280px) and (min-width:1024px){
@@ -406,12 +432,20 @@
       flex-direction: column;
      
    }
+   .img-box{
+      margin: 15px;
+   }
+   #skills-wrapper{
+      padding-top: 40px;
+   }
+  
 }
 
 @media only screen and (max-width:920px){
    #skills-wrapper{
       border: none;
    }
+  
  
 }
 @media only screen and (max-width:540px){
@@ -419,4 +453,5 @@
       width: 200px;
       filter: drop-shadow(-20px 5px 0px #000);
    }
+   
 }

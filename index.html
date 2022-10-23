@@ -10,16 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/bootstrap.min.css" />
     <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/38f0c4ee47.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ultra&display=swap"
-      rel="stylesheet"
-    />
     <link rel="icon" href="IMG/profile-pic.png" type="image/png" />
     <title>Dusan Kovacevic</title>
   </head>
@@ -132,7 +132,7 @@
         </div>
         <div
           id="skills-wrapper"
-          class="col-12 d-md-flex flex-md-wrap justify-content-evenly col-lg-6 p-4"
+          class="col-12 d-md-flex flex-md-wrap justify-content-center col-lg-6"
         >
           <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/html-5.png" alt="html image" />
@@ -156,9 +156,12 @@
           </div>
           <div class="img-box col-12 col-md-6 py-3 text-center">
             <img src="IMG/physics.png" alt="reactJs image" />
-            <p class="pt-3">Basic knowledge of ReactJs</p>
+            <p class="pt-3">
+              Basic knowledge of <br />
+              ReactJs
+            </p>
           </div>
-          <div class="col-12 py-3 text-center text-start">
+          <div class="col-12 py-3 mt-lg-4 text-center text-start">
             <a href="#contact-section">Contact me</a>
           </div>
         </div>
@@ -166,7 +169,10 @@
     </div>
     <!--PROJCTS SECTION-->
     <div id="projects-section" class="container-fluid pb-5">
-      <div class="row justify-content-evenly px-4 py-3">
+      <div
+        id="project-row"
+        class="row justify-content-center px-4 px-md-0 py-3"
+      >
         <div class="col-12 py-5 text-center">
           <h2>MY PROJECTS</h2>
         </div>
@@ -174,7 +180,7 @@
           <div class="wallpaper-box"></div>
           <div class="text">
             <p>
-              Portfolio website built from scratch,using Html, Css, JavaScript
+              Portfolio website built from scratch,using Html, CSS, JavaScript
               and Bootstrap.
             </p>
             <a
@@ -183,6 +189,49 @@
               target="_blank"
               >GitHub</a
             >
+          </div>
+        </div>
+        <div class="col-12 project-box">
+          <div class="wallpaper-box5"></div>
+          <div class="text">
+            <p>Simple calculator created using Html,CSS and JavaScript</p>
+            <div class="col-12 d-flex justify-content-between">
+              <a
+                class="btn btn-outline-success"
+                href="https://github.com/Kocha357/Calculator"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-success"
+                href="https://kocha357.github.io/Calculator/"
+                target="_blank"
+                >GHPages</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 project-box">
+          <div class="wallpaper-box6"></div>
+          <div class="text">
+            <p>
+              ToDO app created using Html,CSS and JavaScript. Every task is
+              saved to localStorage.
+            </p>
+            <div class="col-12 d-flex justify-content-between">
+              <a
+                class="btn btn-outline-success"
+                href="https://github.com/Kocha357/ToDo-App"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-success"
+                href="https://kocha357.github.io/ToDo-App/"
+                target="_blank"
+                >GHPages</a
+              >
+            </div>
           </div>
         </div>
         <div class="col-12 project-box">
@@ -294,7 +343,7 @@
           class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start py-5"
         >
           <a href="mailto:dusan.kovacevic93@outlook.com" target="_blank"
-            ><i class="fa-regular fa-envelope"></i> E-mail</a
+            ><i class="fa-solid fa-envelope"></i> E-mail</a
           >
           <a href="https://www.facebook.com/kocha357" target="_blank"
             ><i class="fa-brands fa-square-facebook"></i> Facebook</a

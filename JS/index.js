@@ -33,8 +33,8 @@ let skillsPage = document.getElementById("skills-wrapper");
 aboutBtn.addEventListener("click", function(){
     aboutMePage.style.display = "block";
     skillsPage.style.display = "none";
-    aboutBtn.style.fontFamily ="'Ultra',serif";
-    skillsBtn.style.fontFamily = "'Ubuntu', sans-serif";
+    aboutBtn.style.fontWeight="bold";
+    skillsBtn.style.fontWeight = "normal";
     aboutBtn.style.color = "rgb(83, 174, 83)";
     skillsBtn.style.color = "rgb(204, 198, 198)";
     aboutBtn.style.borderBottom = "2px solid rgb(83, 174, 83)";
@@ -44,8 +44,8 @@ skillsBtn.addEventListener("click", function(){
     aboutMePage.style.display = "none";
     skillsPage.style.display = "flex";
     skillsPage.style.flexFlow = "column wrap";
-    aboutBtn.style.fontFamily = "'Ubuntu', sans-serif";
-    skillsBtn.style.fontFamily = "'Ultra', serif";
+    aboutBtn.style.fontWeight = "normal";
+    skillsBtn.style.fontWeight = "bold";
     skillsBtn.style.color = "#dd3c0be0";
     aboutBtn.style.color = "rgb(204, 198, 198)";
     skillsBtn.style.borderBottom = "2px solid #dd3c0be0";
