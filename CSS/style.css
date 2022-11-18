@@ -336,7 +336,15 @@ width: 100%;
 
 
 }
+.wallpaper-box7 {
+   width: 100%;
+      height: 200px;
+   background: url("../IMG/Dad-jokes.PNG");
+   background-repeat: no-repeat;
+   background-size: contain;
 
+
+}
 
 .btn{
    color:rgb(83, 174, 83) ;
